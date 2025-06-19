@@ -13,6 +13,9 @@ inputs:
     description: Your input description here
     required: true
     default: '1000'
+  diff_files:
+    description: 'List of changed files in JSON format'
+    required: false
 
 # Define your outputs here.
 outputs:
